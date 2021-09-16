@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: task06
+data:
+  postgres_db: task06
+  postgres_host: postgres-service
